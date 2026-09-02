@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Photo gallery for Tyson Muthomi.">
+<meta name="theme-color" content="#0b1f3a"><title>Photo Gallery | Hon. Tyson Muthomi</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+.gallery-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.gallery-item{background:#fff;border-radius:14px;overflow:hidden;text-decoration:none;color:inherit;box-shadow:0 8px 24px rgba(0,0,0,.08)}
+.gallery-item img{width:100%;height:220px;object-fit:cover;display:block}
+.gallery-caption{padding:15px}.gallery-caption b{display:block;margin-bottom:5px}
+.gallery-placeholder{min-height:220px;display:flex;align-items:center;justify-content:center;padding:20px;text-align:center;background:#eef2f7}
+</style></head>
+<body>
+<header class="header"><div class="container nav-wrap">
+<a class="brand" href="index.html"><span class="logo">TM</span><span><b>HON.TYSON MUTHOMI</b><small>ZEAL PARTY • ROYSAMBU</small></span></a>
+<button class="menu" id="menu" aria-label="Open menu">☰</button>
+<nav id="nav"><a href="index.html">Home</a><a href="index.html#about">About</a><a href="index.html#career">Career</a><a href="index.html#agenda">Agenda</a><a href="index.html#community">Community</a><a href="updates.html">Updates</a><a href="index.html#contact">Contact</a></nav>
+</div></header>
+<main>
+<section class="hero"><div class="container"><p class="eyebrow">ROYSAMBU CONSTITUENCY</p><h1>Photo <span>Gallery</span></h1><h2>Photos & public updates</h2><p class="lead">A gallery for verified photographs from public engagements, events and other approved media updates.</p></div></section>
+<section class="notice"><div class="container"><strong>Public information:</strong> Photos should be added with appropriate permission and accompanied by verified dates, locations or event information where available.</div></section>
+<section class="section"><div class="container"><div class="heading"><p class="eyebrow">GALLERY</p><h2>Latest photos</h2><p>Add verified photographs as activities and events are documented.</p></div>
+<div class="gallery-grid">
+<a class="gallery-item" href="tyson-muthomi.jpg" target="_blank" rel="noopener"><img src="tyson-muthomi.jpg" alt="Tyson Muthomi"><div class="gallery-caption"><b>Tyson Muthomi</b><span>Profile photograph</span></div></a>
+<div class="gallery-item"><div class="gallery-placeholder">Add verified event photograph here.</div><div class="gallery-caption"><b>Community engagement</b><span>Add date and location.</span></div></div>
+<div class="gallery-item"><div class="gallery-placeholder">Add verified event photograph here.</div><div class="gallery-caption"><b>Public engagement</b><span>Add date and location.</span></div></div>
+<div class="gallery-item"><div class="gallery-placeholder">Add verified media photograph here.</div><div class="gallery-caption"><b>Media appearance</b><span>Add date and verified media details.</span></div></div>
+</div></div></section>
+<section class="section alt"><div class="container"><div class="heading"><p class="eyebrow">UPDATES</p><h2>More information</h2><p>Visit the updates page for news, events and media information.</p></div><div class="actions"><a class="btn primary" href="updates.html">View Updates</a><a class="btn outline" href="index.html">Back to Home</a></div></div></section>
+</main>
+<footer><div class="container footer"><b>HON.TYSON MUTHOMI</b><span>MP Aspirant • Zeal Party • Roysambu Constituency</span><span>© <i id="year"></i> Tyson Muthomi</span></div></footer>
+<script src="script.js"></script></body></html>
